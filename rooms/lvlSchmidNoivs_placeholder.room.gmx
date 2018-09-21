@@ -62,7 +62,6 @@
     <instance objName="objSolid" x="80" y="0" name="inst_A2BE12B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSolid" x="80" y="16" name="inst_F7FD9667" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSolid" x="80" y="32" name="inst_C1457BCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSolid" x="96" y="0" name="inst_F9440746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSolid" x="112" y="0" name="inst_2C0E6BD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSolid" x="128" y="0" name="inst_0C095CEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSolid" x="144" y="0" name="inst_409380ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -76,6 +75,7 @@
     <instance objName="objSchmidNoivs_breakabletile" x="512" y="624" name="inst_D57F8424" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_breakabletile" x="512" y="608" name="inst_77FB4C70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_parallaxbg" x="368" y="512" name="inst_59BD0BB5" locked="0" code="///setup parallax and disable dev bg&#xA;parallax_modifierx[0] = -0.50;&#xA;parallax_modifiery[0] = -0.15;&#xA;parallax_offsetx[0] = 0;&#xA;parallax_offsety[0] = 0;&#xA;&#xA;parallax_modifierx[1] = -0.0;&#xA;parallax_modifiery[1] = -0.0;&#xA;parallax_offsetx[1] = 0&#xA;parallax_offsety[1] = 0;&#xA;&#xA;parallax_modifierx[2] = -0.0;&#xA;parallax_modifiery[2] = -0.0;&#xA;parallax_offsetx[2] = 0;&#xA;parallax_offsety[2] = 0;&#xA;&#xA;background_visible[7] = false;&#xA;&#xA;event_user(0);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTricksterToken" x="560" y="592" name="inst_F6BC379C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tstSchmidNoivs_placeholder" x="320" y="560" w="16" h="16" xo="0" yo="96" id="11354559" name="inst_E67CC8D1" depth="5000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -133,10 +133,10 @@
     <tile bgName="tstSchmidNoivs_placeholder" x="560" y="640" w="16" h="16" xo="80" yo="64" id="11354540" name="inst_5DCB15E5" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tstSchmidNoivs_placeholder" x="560" y="624" w="16" h="16" xo="32" yo="64" id="11354541" name="inst_22484528" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tstSchmidNoivs_placeholder" x="0" y="0" w="192" h="160" xo="0" yo="0" id="11354546" name="inst_8767EE5A" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tstSchmidNoivs_placeholder" x="512" y="624" w="16" h="16" xo="80" yo="0" id="11354547" name="inst_B7581C17" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tstSchmidNoivs_placeholder" x="528" y="624" w="16" h="16" xo="80" yo="0" id="11354548" name="inst_C0EBDF07" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tstSchmidNoivs_placeholder" x="528" y="608" w="16" h="16" xo="80" yo="0" id="11354549" name="inst_742890B2" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tstSchmidNoivs_placeholder" x="512" y="608" w="16" h="16" xo="80" yo="0" id="11354550" name="inst_F0D9EF99" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tstSchmidNoivs_placeholder" x="512" y="608" w="16" h="16" xo="96" yo="0" id="11354575" name="inst_EBA4DDC0" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tstSchmidNoivs_placeholder" x="512" y="624" w="16" h="16" xo="96" yo="0" id="11354576" name="inst_8B8BC92F" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tstSchmidNoivs_placeholder" x="528" y="624" w="16" h="16" xo="96" yo="0" id="11354577" name="inst_468C94F3" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tstSchmidNoivs_placeholder" x="528" y="608" w="16" h="16" xo="96" yo="0" id="11354578" name="inst_9EC635CD" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -28,7 +28,6 @@
             <string>/// Solid object, blocks entities with blockCollision set to true
 
 isSolid = true;
-
 </string>
           </argument>
         </arguments>
