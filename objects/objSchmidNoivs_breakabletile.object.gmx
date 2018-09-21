@@ -5,7 +5,7 @@
   <visible>0</visible>
   <depth>100</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>objSolid</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -51,16 +51,32 @@ isSolid = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///breaking
+            <string>///break tiles into debris!
+var findInst = instance_place(x,y,prtPlayerProjectile );
+if(findInst != noone) {
+    //by default the block will break
+    var brokeBlock = true;
     
-    //break tiles into debris!
-    with instance_place(x,y,objBusterShot) {
-        if scrSchmidNoivs_breaktile(x,y,16,16,1000) == false {
-            scrSchmidNoivs_makerubble(x,y,1000);
-            instance_destroy();
-            isSolid = false;
+    //unique reactions to different weapons
+    switch other.object_index {
+        //case objBusterShot: break; //add cases to have different shots do different things
+        
+        default:
+            with findInst instance_destroy(); //remove shots by defaults
+        break;
+    
+    }
+    
+    //if the weapon breaks the block, break it!
+    if( brokeBlock == true ) {
+        if(scrSchmidNoivs_breaktile(x,y,16,16,1000) == false) {
+            scrSchmidNoivs_makerubble(x,y,1000,enmrSchmidNRubbleTypes.wackyblock,random(3));
+            instance_create(x+8,y+8,objExplosion);
+            playSFX(sfxMM3Explode);
+            instance_destroy(); //break me!
         }
     }
+}
 </string>
           </argument>
         </arguments>
