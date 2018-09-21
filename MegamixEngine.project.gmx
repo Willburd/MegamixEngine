@@ -4257,6 +4257,9 @@
       <sprite>sprites\sprEnergySaver</sprite>
       <sprite>sprites\sprRushBikeShopIcon</sprite>
     </sprites>
+    <sprites name="SubmissionSprites">
+      <sprite>sprites\sprSchmidNoivs_breakabletile</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="QuadrantSize">
@@ -4519,6 +4522,10 @@
     </backgrounds>
     <background>background\bgBasic</background>
     <background>background\bgNESPalette</background>
+    <backgrounds name="SubmissionBackgrounds">
+      <background>background\tstSchmidNoivs_placeholder</background>
+      <background>background\bgSchmidNoivs_forest1</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <paths name="Octobulb">
@@ -4907,6 +4914,10 @@
       <script>scripts\eventExecute.gml</script>
       <script>scripts\combineObjects.gml</script>
       <script>scripts\cleanMem.gml</script>
+    </scripts>
+    <scripts name="SubmissionScripts">
+      <script>scripts\scrSchmidNoivs_breaktile.gml</script>
+      <script>scripts\scrSchmidNoivs_makerubble.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -6528,6 +6539,12 @@
         <object>objects\objDialogueBox</object>
       </objects>
     </objects>
+    <objects name="SubmissionObjects">
+      <object>objects\objSchmidNoivs_parallaxbg</object>
+      <object>objects\objSchmidNoivs_breakabletile</object>
+      <object>objects\objSchmidNoivs_rubble</object>
+      <object>objects\prtSchmidNoivs_NeverDisabled</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmInit</room>
@@ -6557,6 +6574,9 @@
       <room>rooms\lvlTestHall4</room>
       <room>rooms\lvlTestHall5</room>
       <room>rooms\lvlTestHallBoss</room>
+    </rooms>
+    <rooms name="SubmissionEntry">
+      <room>rooms\lvlSchmidNoivs_placeholder</room>
     </rooms>
   </rooms>
   <constants number="79">
