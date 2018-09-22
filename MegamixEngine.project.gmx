@@ -4525,6 +4525,7 @@
     <backgrounds name="SubmissionBackgrounds">
       <background>background\tstSchmidNoivs_placeholder</background>
       <background>background\bgSchmidNoivs_forest1</background>
+      <background>background\bgSchmidNoivs_forest2</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
