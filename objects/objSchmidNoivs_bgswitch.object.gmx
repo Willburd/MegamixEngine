@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>prtAlwaysActive</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -49,10 +49,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(objPauseMenu)
-{
-    background_visible[2] = false;
-}
+            <string>///i'm just gonna make this a bit prettier using an alpha lerp instead
+var lerpgoal = 1;
+if(instance_exists(objPauseMenu)) lerpgoal = 0; 
+
+background_alpha[2] = lerp(background_alpha[2],lerpgoal,0.10);
+background_alpha[3] = lerp(background_alpha[3],lerpgoal,0.10);
+background_alpha[4] = lerp(background_alpha[4],lerpgoal,0.10);
 </string>
           </argument>
         </arguments>
