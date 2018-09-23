@@ -80,6 +80,7 @@
     <instance objName="objSchmidNoivs_breakabletile" x="528" y="592" name="inst_29F659E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_breakabletile" x="528" y="576" name="inst_722DA99C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_breakabletile" x="512" y="576" name="inst_23108BD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSchmidNoivs_bgswitch" x="224" y="144" name="inst_7BD5AE8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tstSchmidNoivs_placeholder" x="416" y="640" w="32" h="16" xo="16" yo="0" id="11354482" name="inst_69C8A400" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
