@@ -4259,6 +4259,7 @@
     </sprites>
     <sprites name="SubmissionSprites">
       <sprite>sprites\sprSchmidNoivs_breakabletile</sprite>
+      <sprite>sprites\sprSchmidNoivs_IM</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
