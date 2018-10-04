@@ -96,8 +96,8 @@ view_yview[assigned_view] = floor(y/view_hview[assigned_view]) * view_hview[assi
             <string>///update backgrounds
 for (var i=0; i&lt;8; i+=1)
 {
-    background_x[i] = view_xview[assigned_view] + parallax_offsetx[i] + (view_xview[assigned_view] * parallax_modifierx[i]);
-    background_y[i] = view_yview[assigned_view] + parallax_offsety[i] + (view_yview[assigned_view] * parallax_modifiery[i]);
+    background_x[i] = floor(view_xview[assigned_view] + parallax_offsetx[i] + (view_xview[assigned_view] * parallax_modifierx[i]));
+    background_y[i] = floor(view_yview[assigned_view] + parallax_offsety[i] + (view_yview[assigned_view] * parallax_modifiery[i]));
 
     //allow bg movement
     parallax_offsetx[i] += background_hspeed[i]; 
@@ -105,8 +105,8 @@ for (var i=0; i&lt;8; i+=1)
 }
 
 //jump to
-x = view_xview[assigned_view];
-y = view_yview[assigned_view];
+x = floor(view_xview[assigned_view]);
+y = floor(view_yview[assigned_view]);
 </string>
           </argument>
         </arguments>
