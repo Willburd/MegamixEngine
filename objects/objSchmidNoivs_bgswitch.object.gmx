@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>background_visible[2] = true;
+            <string>background_visible[4] = true;
 
 </string>
           </argument>
@@ -53,9 +53,9 @@
 var lerpgoal = 1;
 if(instance_exists(objPauseMenu)) lerpgoal = 0; 
 
-background_alpha[2] = lerp(background_alpha[2],lerpgoal,0.10);
-background_alpha[3] = lerp(background_alpha[3],lerpgoal,0.10);
 background_alpha[4] = lerp(background_alpha[4],lerpgoal,0.10);
+background_alpha[5] = lerp(background_alpha[5],lerpgoal,0.10);
+background_alpha[6] = lerp(background_alpha[6],lerpgoal,0.10);
 </string>
           </argument>
         </arguments>
