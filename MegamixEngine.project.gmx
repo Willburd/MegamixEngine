@@ -6546,6 +6546,8 @@
       <object>objects\objSchmidNoivs_breakabletile</object>
       <object>objects\objSchmidNoivs_rubble</object>
       <object>objects\objSchmidNoivs_bgswitch</object>
+      <object>objects\objSchmidNoivs_IM</object>
+      <object>objects\objSchmidNoivs_CaptureManager</object>
     </objects>
   </objects>
   <rooms name="rooms">
