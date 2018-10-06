@@ -4260,6 +4260,7 @@
     <sprites name="SubmissionSprites">
       <sprite>sprites\sprSchmidNoivs_breakabletile</sprite>
       <sprite>sprites\sprSchmidNoivs_IM</sprite>
+      <sprite>sprites\sprSchmidNoivs_Ghasty</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
