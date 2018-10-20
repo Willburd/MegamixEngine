@@ -50,10 +50,10 @@ DrawHinge = true;
 //config values, set this with room specific creation code for the ball you want to have unique values
 orbitCurrent = 0; //ignore this, it's the current sinwave amount it's at
 orbitInitValue = 0; //this is set on spawn, if you need it to be swinging a different direction on spawn. try any value till you find one that works
-orbitDistance = 96 //distance from block to center of ball
+orbitDistance = 80 //distance from block to center of ball
 orbitSpeed = 0.03; //speed of sinwave progression (added to orbitCurrent each frame)
 orbitMaxDeviation = 53; //the "angle" not really an angle though, higher values give a broader swing, smaller gives small swings
-chainLinks = 5; //links in the graphical chain
+chainLinks = 4; //links in the graphical chain
 </string>
           </argument>
         </arguments>
