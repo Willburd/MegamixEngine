@@ -4262,6 +4262,8 @@
       <sprite>sprites\sprSchmidNoivs_IM</sprite>
       <sprite>sprites\sprSchmidNoivs_Ghasty</sprite>
       <sprite>sprites\sprSchmidNoivs_Ballchain</sprite>
+      <sprite>sprites\sprSchmidNoivs_FenceSpike</sprite>
+      <sprite>sprites\mskSchmidNoivs_FenceSpikeEmpty</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -4526,7 +4528,9 @@
     <background>background\bgBasic</background>
     <background>background\bgNESPalette</background>
     <backgrounds name="SubmissionBackgrounds">
-      <background>background\tstSchmidNoivs_placeholder</background>
+      <background>background\tstSchmidNoivs_Ruin1</background>
+      <background>background\tstSchmidNoivs_Ruin2</background>
+      <background>background\tstSchmidNoivs_Ruin3</background>
       <background>background\bgSchmidNoivs_forest1</background>
       <background>background\bgSchmidNoivs_forest4</background>
       <background>background\bgSchmidNoivs_fog</background>
@@ -6552,6 +6556,7 @@
       <object>objects\objSchmidNoivs_IM</object>
       <object>objects\objSchmidNoivs_Ghasty</object>
       <object>objects\objSchmidNoivs_Ballchain</object>
+      <object>objects\objSchmidNoivs_FenceSpike</object>
       <object>objects\objSchmidNoivs_CaptureManager</object>
     </objects>
   </objects>
