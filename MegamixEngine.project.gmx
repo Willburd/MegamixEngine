@@ -4532,6 +4532,8 @@
       <background>background\tstSchmidNoivs_Ruin2</background>
       <background>background\tstSchmidNoivs_Ruin3</background>
       <background>background\bgSchmidNoivs_forest1</background>
+      <background>background\bgSchmidNoivs_forest2</background>
+      <background>background\bgSchmidNoivs_forest3</background>
       <background>background\bgSchmidNoivs_forest4</background>
       <background>background\bgSchmidNoivs_fog</background>
     </backgrounds>
@@ -6590,7 +6592,7 @@
       <room>rooms\lvlTestHallBoss</room>
     </rooms>
     <rooms name="SubmissionEntry">
-      <room>rooms\lvlSchmidNoivs_placeholder</room>
+      <room>rooms\lvlSchmidNoivs_BansheeWoman</room>
     </rooms>
   </rooms>
   <constants number="79">
