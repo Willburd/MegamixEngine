@@ -4257,13 +4257,15 @@
       <sprite>sprites\sprEnergySaver</sprite>
       <sprite>sprites\sprRushBikeShopIcon</sprite>
     </sprites>
-    <sprites name="SubmissionSprites">
+    <sprites name="SchmidNoivsSubmissionSprites">
       <sprite>sprites\sprSchmidNoivs_breakabletile</sprite>
       <sprite>sprites\sprSchmidNoivs_IM</sprite>
       <sprite>sprites\sprSchmidNoivs_Ghasty</sprite>
       <sprite>sprites\sprSchmidNoivs_Ballchain</sprite>
       <sprite>sprites\sprSchmidNoivs_FenceSpike</sprite>
       <sprite>sprites\mskSchmidNoivs_FenceSpikeEmpty</sprite>
+      <sprite>sprites\sprSchmidNoivs_SkullMet</sprite>
+      <sprite>sprites\sprSchmidNoivs_SkullMetP</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -4527,7 +4529,7 @@
     </backgrounds>
     <background>background\bgBasic</background>
     <background>background\bgNESPalette</background>
-    <backgrounds name="SubmissionBackgrounds">
+    <backgrounds name="SchmidNoivsSubmissionBackgrounds">
       <background>background\tstSchmidNoivs_Ruin1</background>
       <background>background\tstSchmidNoivs_Ruin2</background>
       <background>background\tstSchmidNoivs_Ruin3</background>
@@ -4926,7 +4928,7 @@
       <script>scripts\combineObjects.gml</script>
       <script>scripts\cleanMem.gml</script>
     </scripts>
-    <scripts name="SubmissionScripts">
+    <scripts name="SchmidNoivsSubmissionScripts">
       <script>scripts\scrSchmidNoivs_breaktile.gml</script>
       <script>scripts\scrSchmidNoivs_makerubble.gml</script>
     </scripts>
@@ -6550,7 +6552,7 @@
         <object>objects\objDialogueBox</object>
       </objects>
     </objects>
-    <objects name="SubmissionObjects">
+    <objects name="SchmidNoivsSubmissionObjects">
       <object>objects\objSchmidNoivs_parallaxbg</object>
       <object>objects\objSchmidNoivs_breakabletile</object>
       <object>objects\objSchmidNoivs_rubble</object>
@@ -6560,6 +6562,10 @@
       <object>objects\objSchmidNoivs_Ballchain</object>
       <object>objects\objSchmidNoivs_FenceSpike</object>
       <object>objects\objSchmidNoivs_CaptureManager</object>
+      <object>objects\objSchmidNoivs_SkullMet</object>
+      <objects name="SchmidNoivsSubmissionObjects">
+        <object>objects\objSchmidNoivs_SkullMetP</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -6591,7 +6597,7 @@
       <room>rooms\lvlTestHall5</room>
       <room>rooms\lvlTestHallBoss</room>
     </rooms>
-    <rooms name="SubmissionEntry">
+    <rooms name="SchmidNoivsSubmissionEntry">
       <room>rooms\lvlSchmidNoivs_BansheeWoman</room>
     </rooms>
   </rooms>
