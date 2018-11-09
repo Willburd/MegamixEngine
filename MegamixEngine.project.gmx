@@ -4266,6 +4266,20 @@
       <sprite>sprites\mskSchmidNoivs_FenceSpikeEmpty</sprite>
       <sprite>sprites\sprSchmidNoivs_SkullMet</sprite>
       <sprite>sprites\sprSchmidNoivs_SkullMetP</sprite>
+      <sprites name="SchmidNoivsSubmissionBossSprites">
+        <sprite>sprites\sprSchmidNoivs_Banshee_Idle</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ChargeIntro</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ChargedBall</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_Charge</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ChargeDone</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ScytheIntro</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ScytheIdle</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ScytheAttack</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ScytheThrow</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ScreamIntro</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_Scream</sprite>
+        <sprite>sprites\sprSchmidNoivs_Banshee_ScreamRings</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
