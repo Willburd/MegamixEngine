@@ -69,18 +69,18 @@ enum SchmidNoivs_BansheePhase {
 
 
 // Healthbar colours
-healthBarPrimaryColor[1] = 18;
-healthBarSecondaryColor[1] = 40;
+healthBarPrimaryColor[1] = 29
+healthBarSecondaryColor[1] = 41
 
 // Music
-music = "Mega_Man_6.nsf";
+music = "SchmidNoivs_Boss.nsf";
 musicType = "VGM";
-musicTrackNumber = 12;
+musicTrackNumber = 0;
 
 // Damage Table
 enemyDamageValue(objBusterShot, 1);
-enemyDamageValue(objBusterShotHalfCharged, 2);
-enemyDamageValue(objBusterShotCharged, 4);
+enemyDamageValue(objBusterShotHalfCharged, 1);
+enemyDamageValue(objBusterShotCharged, 3);
 
 // MaGMML3
 enemyDamageValue(objSparkChaser, 1);
@@ -95,7 +95,7 @@ enemyDamageValue(objBreakDash, 4);
 // MaGMML2
 enemyDamageValue(objHornetChaser, 2);
 enemyDamageValue(objJewelSatellite, 1);
-enemyDamageValue(objGrabBuster, 5);
+enemyDamageValue(objGrabBuster, 4);
 enemyDamageValue(objTripleBlade, 2);
 enemyDamageValue(objWheelCutter, 2);
 enemyDamageValue(objSlashClaw, 1);
@@ -106,7 +106,7 @@ enemyDamageValue(objWireAdapter, 1);
 // MaGMML1
 enemyDamageValue(objMetalBlade, 1);
 enemyDamageValue(objGeminiLaser, 2);
-enemyDamageValue(objSolarBlaze, 4);
+enemyDamageValue(objSolarBlaze, 3);
 enemyDamageValue(objTopSpin, 1);
 enemyDamageValue(objThunderWool, 1);
 enemyDamageValue(objPharaohShot, 2); //Charge shot = 6
@@ -122,7 +122,7 @@ enemyDamageValue(objTenguBlade, 2);
 enemyDamageValue(objTenguDash, 2);
 enemyDamageValue(objTenguDisk, 2);
 enemyDamageValue(objSaltWater, 1);
-enemyDamageValue(objConcreteShot, 4);
+enemyDamageValue(objConcreteShot, 3);
 enemyDamageValue(objHomingSniper, 1);
 
 // MaG24HMML
@@ -132,7 +132,7 @@ enemyDamageValue(objChillShot, 1);
 enemyDamageValue(objChillSpikeLanded, 2);
 
 // Misc.
-enemyDamageValue(objPowerStone, 4);
+enemyDamageValue(objPowerStone, 3);
 enemyDamageValue(objPlantBarrier, 0);
 enemyDamageValue(objBrickWeapon, 4);
 enemyDamageValue(objIceSlasher, 0);
