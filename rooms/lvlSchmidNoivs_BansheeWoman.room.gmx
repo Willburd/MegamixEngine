@@ -120,7 +120,6 @@
     <instance objName="objSchmidNoivs_Ballchain" x="1952" y="688" name="inst_8C1B55A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_Ghasty" x="1936" y="768" name="inst_003B0851" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_Ballchain" x="1840" y="720" name="inst_ED2F9DF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckpoint" x="2160" y="592" name="inst_43E79152" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStopScrollingHorizontal" x="2304" y="448" name="inst_2204C3BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStopScrollingHorizontal" x="2304" y="224" name="inst_F774BE2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStopScrollingHorizontal" x="2048" y="224" name="inst_A26F7CA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -142,11 +141,6 @@
     <instance objName="objSchmidNoivs_Ballchain" x="1904" y="240" name="inst_A64C2302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_Ballchain" x="1824" y="240" name="inst_97C29015" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_Ghasty" x="1840" y="272" name="inst_DA2C55B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objETank" x="1856" y="384" name="inst_A527DFD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBoltBig" x="1840" y="384" name="inst_0488D64A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBoltBig" x="1872" y="384" name="inst_FB29AD7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBoltBig" x="1824" y="384" name="inst_BFF9EC28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBoltBig" x="1904" y="384" name="inst_B8F4CC6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStopScrollingHorizontal" x="1792" y="224" name="inst_D334541D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStopScrollingHorizontal" x="3072" y="224" name="inst_EA2F2CD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStopScrollingHorizontal" x="3072" y="448" name="inst_9D3B5C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -179,7 +173,6 @@
     <instance objName="objSchmidNoivs_breakabletile" x="2560" y="320" name="inst_57B12AB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_breakabletile" x="2544" y="352" name="inst_6903F59C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_breakabletile" x="2528" y="352" name="inst_2D4BFAF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLifeEnergyBig" x="1888" y="384" name="inst_546C082F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCyorown" x="976" y="544" name="inst_451A3BC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_Ghasty" x="1616" y="704" name="inst_83F93FD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objVerticalScrolling" x="2816" y="448" name="inst_5D194B5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -428,6 +421,8 @@
     <instance objName="objSchmidNoivs_breakabletile" x="4336" y="416" name="inst_D6F8323F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_IM" x="5824" y="592" name="inst_C727F9DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_IM" x="3440" y="528" name="inst_78272E04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTricksterToken" x="1872" y="384" name="inst_719FC21C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckpoint" x="2160" y="592" name="inst_2B8BDCD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tstSchmidNoivs_Ruin1" x="176" y="64" w="48" h="48" xo="0" yo="160" id="11358581" name="inst_85B31F39" depth="1700" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -5133,6 +5128,7 @@
     <tile bgName="tstSchmidNoivs_Ruin1" x="3584" y="544" w="16" h="16" xo="112" yo="0" id="11366641" name="inst_CDAD719F" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tstSchmidNoivs_Ruin1" x="3600" y="544" w="16" h="16" xo="112" yo="0" id="11366642" name="inst_21632C7C" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tstSchmidNoivs_Ruin1" x="3616" y="544" w="16" h="16" xo="112" yo="0" id="11366643" name="inst_691D688E" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tstSchmidNoivs_Ruin1" x="4224" y="352" w="16" h="16" xo="112" yo="0" id="11366644" name="inst_DB1428E9" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
