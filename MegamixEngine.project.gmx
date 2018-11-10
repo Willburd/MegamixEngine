@@ -6577,8 +6577,11 @@
       <object>objects\objSchmidNoivs_FenceSpike</object>
       <object>objects\objSchmidNoivs_CaptureManager</object>
       <object>objects\objSchmidNoivs_SkullMet</object>
+      <object>objects\objSchmidNoivs_BansheeWoman</object>
       <objects name="SchmidNoivsSubmissionObjects">
         <object>objects\objSchmidNoivs_SkullMetP</object>
+        <object>objects\objSchmidNoivs_BansheeScythe</object>
+        <object>objects\objSchmidNoivs_BansheeOrbs</object>
       </objects>
     </objects>
   </objects>
