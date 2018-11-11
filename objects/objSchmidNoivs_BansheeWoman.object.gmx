@@ -38,11 +38,11 @@ contactDamage = 4;
 attackTimer = 0;
 grav = 0;
 pathSpeed = 3;
-pathAccelerator = 0.03;
+pathAccelerator = 0.02;
 goalx = xstart;
 goaly = ystart;
-image_speed = 0.15;
-screamingImageSpeed = 0.56;
+image_speed = 0.25;
+screamingImageSpeed = 0.70;
 dirBeforeScream = 0;
 prePauseImageSpeed = -1;
 dieToPits = false;
@@ -52,7 +52,7 @@ ScreamPreFlashMaxi = 18;
 ScreamFlashCount = 0;
 ScreamFlashMaxi = 15;
 pose = sprSchmidNoivs_Banshee_ScytheIdle;
-poseImgSpeed = 0.15;
+poseImgSpeed = 0.20;
 BattlePhase = SchmidNoivs_BansheePhase.DecideScytheGoalPos;
 AttackAnimationCounter = 0;
 LastThrownWeapon = noone;
@@ -171,6 +171,9 @@ if (entityCanStep())
         xspeed = 0;
         yspeed = 0;
         image_speed = screamingImageSpeed;
+        canDamage = true;
+        contactDamage = 3;
+        mask_index = sprSchmidNoivs_Banshee_ScreamRings;
         if(instance_exists(LastThrownWeapon)) {
             if(LastThrownWeapon.grab_counter &lt; 10) LastThrownWeapon.grab_counter = 10;
         }
@@ -193,7 +196,7 @@ if (entityCanStep())
                 //return to normal! use the sprite as the flag!
                 image_xscale = dirBeforeScream;
                 image_yscale = 1;
-                image_speed = 0.50;
+                image_speed = 0.55;
                 ScreamFlashCount = 0;
                 sprite_index = sprSchmidNoivs_Banshee_Scream;
             }
@@ -218,7 +221,7 @@ if (entityCanStep())
                     goaly = view_yview[0] + 40;
                     
                     sprite_index = sprSchmidNoivs_Banshee_ScytheIdle;
-                    image_speed = 0.15;
+                    image_speed = 0.20;
                     BattlePhase = SchmidNoivs_BansheePhase.ScytheReady;
                     AttackAnimationCounter = 0; //pre-emptive clean out
                 break;   
