@@ -1992,6 +1992,11 @@
       <sound>sound\sfxCastlePath</sound>
       <sound>sound\sfxBeat</sound>
     </sounds>
+    <sounds name="SchmidNoivsSubmissionSounds">
+      <sound>sound\sfxSchmidNoivs_Scream</sound>
+      <sound>sound\sfxSchmidNoivs_Scythe</sound>
+      <sound>sound\sfxSchmidNoivs_ScytheLong</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
