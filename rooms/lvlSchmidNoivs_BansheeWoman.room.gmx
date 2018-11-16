@@ -374,7 +374,7 @@
     <instance objName="objSchmidNoivs_FenceSpike" x="5120" y="608" name="inst_65262C29" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_BansheeWoman" x="5824" y="592" name="inst_D51E1182" locked="0" code="itemDrop = objEnergyElement;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSchmidNoivs_SkullMet" x="4640" y="96" name="inst_8EFE1D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSchmidNoivsENS" x="5752" y="480" name="inst_C353477F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="5752" y="480" name="inst_C353477F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDefaultSpawn" x="5536" y="592" name="inst_F92BDF73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
