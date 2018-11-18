@@ -57,6 +57,7 @@ BattlePhase = SchmidNoivs_BansheePhase.DecideScytheGoalPos;
 AttackAnimationCounter = 0;
 LastThrownWeapon = noone;
 orbGapCooldown = 10;
+prePauseImageSpeed = -1;
 
 enum SchmidNoivs_BansheePhase {
     AbsorbEnergy,
@@ -626,10 +627,15 @@ if (destroyOnDeath)
             <string>///Custom intro logic
 if(initIntro == false) {
     initIntro = true;
+    image_speed = 0.25;
+    image_index = 0;
+    sprite_index = sprSchmidNoivs_Banshee_Idle;
     y = view_yview[0] - sprite_get_yoffset(sprite_index);
     x = xstart + 4;
     xspeed = -1;
+    prePauseImageSpeed = -1;
 }
+
 
 if(point_distance(x,y,goalx,goaly) &lt; 10) {
     xspeed = lerp(xspeed, clamp(xspeed,-0.21,0.21), 0.10);
