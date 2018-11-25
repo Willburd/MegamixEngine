@@ -77,6 +77,7 @@ healthBarSecondaryColor[1] = 41
 music = "SchmidNoivs_Boss.nsf";
 musicType = "VGM";
 musicTrackNumber = 0;
+musicVolume = 1;
 
 // Damage Table
 enemyDamageValue(objBusterShot, 1);

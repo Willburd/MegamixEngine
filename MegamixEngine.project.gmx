@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="169" name="datafiles">
+  <datafiles number="171" name="datafiles">
     <datafile>
       <name>CleanMem.dll</name>
       <exists>-1</exists>
@@ -55,7 +55,7 @@
       </ConfigOptions>
       <filename>GMFMODSimple.dll</filename>
     </datafile>
-    <datafiles number="169" name="Music">
+    <datafiles number="171" name="Music">
       <datafile>
         <name>14 Tenguman.spc</name>
         <exists>-1</exists>
@@ -566,8 +566,25 @@
         </ConfigOptions>
         <filename>SchmidNoivs_Boss.nsf</filename>
       </datafile>
+      <datafile>
+        <name>SchmidNoivs_CV3_Aquarius.ogg</name>
+        <exists>-1</exists>
+        <size>4198607</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>SchmidNoivs_CV3_Aquarius.ogg</filename>
+      </datafile>
     </datafiles>
-    <datafiles number="169" name="Recordings">
+    <datafiles number="171" name="Recordings">
       <datafile>
         <name>demoHoneyWoman.mrc</name>
         <exists>-1</exists>
@@ -620,8 +637,8 @@
         <filename>demoPico.mrc</filename>
       </datafile>
     </datafiles>
-    <datafiles number="169" name="UnitTests">
-      <datafiles number="169" name="Rooms">
+    <datafiles number="171" name="UnitTests">
+      <datafiles number="171" name="Rooms">
         <datafile>
           <name>lvlRecordingTest.room.gmx</name>
           <exists>-1</exists>
@@ -742,7 +759,7 @@
           <filename>lvlUnitTestBossDoors.room.gmx</filename>
         </datafile>
       </datafiles>
-      <datafiles number="169" name="Recordings">
+      <datafiles number="171" name="Recordings">
         <datafile>
           <name>RecordingObjectSet.mrc</name>
           <exists>-1</exists>
@@ -881,7 +898,7 @@
         </datafile>
       </datafiles>
     </datafiles>
-    <datafiles number="169" name="Levels">
+    <datafiles number="171" name="Levels">
       <datafile>
         <name>lvlChillMan.room.gmx</name>
         <exists>-1</exists>
